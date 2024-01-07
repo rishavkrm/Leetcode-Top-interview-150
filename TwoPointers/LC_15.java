@@ -20,7 +20,6 @@ public class LC_15 {
                 int l = i + 1;
                 int r = nums.length - 1;
                 while (l < r) {
-                    // System.out.println(nums[l] + nums[r] + nums[i]);
                     if (nums[l] + nums[r] + nums[i] == 0 && r != l) {
                         ArrayList<Integer> temp = new ArrayList<>();
                         temp.add(nums[i]);
